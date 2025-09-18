@@ -74,7 +74,7 @@ OrangeHRMBDD/
 | **Epic**             | **Feature**           | **Scenario**                                              | **Tags**                |
 | -------------------- | --------------------- | --------------------------------------------------------- | ----------------------- |
 | LoginModule          | ValidLogin            | Verify OrangeHRM login with Excel data                    | `@LoginTest`            |
-| LoginModule          | ValidLogin            | Invalid login with multiple credentials                   | Scenario Outline        |
+| LoginModule          | InValidLogin          | Invalid login with multiple invalid credentials           | `@InValidLoginTest`     |
 | Employee\_Creation   | Add\_New\_Employee    | Verify adding a new employee after logging into OrangeHRM | `@AddNewEmployeeTest`   |
 | Search\_Employee     | Search\_New\_Employee | Verify searching employee by first name after login       | `@SearchEmployeeByName` |
 | Employee\_Management | Admin\_Assignment     | Verify adding an employee as admin                        | `@AddEmployeeAsAdmin`   |
